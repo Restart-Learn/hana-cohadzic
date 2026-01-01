@@ -1,0 +1,45 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(120deg, pink, purple, pink, purple, pink, purple);
+  color: white;
+}
+
+.navbar {
+  background: linear-gradient(120deg, pink, purple, pink, purple, pink, purple);
+}
+
+.skill-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(255, 255, 255, 0.6);
+}
+
+.glitter-text {
+  position: relative;
+  font-weight: bold;
+  font-size: 4rem;
+  background: linear-gradient(45deg, #fff, #f8f, #0ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -500px 0; }
+  100% { background-position: 500px 0; }
+}
+.custom-footer {
+  background: linear-gradient(120deg, purple, hotpink, purple);
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -10px 30px rgba(0,0,0,0.5);
+}
+
+.footer-line {
+  width: 60%;
+  margin: 15px auto;
+  border-top: 2px solid white;
+}
